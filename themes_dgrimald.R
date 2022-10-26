@@ -44,9 +44,9 @@ binario <- c("#00B0F0", "#161D3A", "#838383","#B9B9B9", "#000000", "#0F4E77", "#
 #B9B9B9 - cinza aberto
 #077FB3 - azul aberto
 
-windowsFonts(Helvetica = windowsFont("Helvetica"))
+# windowsFonts(Helvetica = windowsFont("Helvetica"))
 
-tema_base <-  function(base_size = 12, base_family = "Helvetica"){theme(
+tema_base <-  function(base_size = 12){theme(
     line =               element_line(colour = cores$azulescuro, size = .5, linetype = 1,lineend = "butt"),
     rect =               element_rect(size = 0.5, fill = cores$cinzaclaro, colour = cores$cinzaclaro, linetype = 1),
     text =               element_text(family = "Helvetica", size=10, margin=margin(), face = "plain", colour = cores$cinzaescuro, hjust = 0.5, vjust = 0.5, angle = 0, debug=F, lineheight = 1),
