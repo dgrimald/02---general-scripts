@@ -20,30 +20,6 @@ cores <- list(
   vermelhoescuro = "#AB2D0C"
 )
 
-
-diverso <- c("#00B0F0", "#161D3A", "#F04000", "#F0B800","#50B3A0", "#077FB3", "#F09000","#AB2D0C" )
-binario <- c("#00B0F0", "#161D3A", "#838383","#B9B9B9", "#000000", "#0F4E77", "#077FB3")
-
-#DIVERSA
-#00B0F0 - Azul Claro
-#161D3A - Azul Escuro
-#F04000 - Laranja avermelhado
-#F0B800 - Amarelo
-#50B3A0 - Verde Marinho
-#077FB3 - Azul Carro
-#F09000 - Laranja
-#AB2D0C - Vermelho Escuro
-
-
-# BIN?RIA
-#00B0F0 - azul claro
-#161D3A - azul escuro
-#838383 - cinza fechado
-#000000 - preto
-#0F4E77 - azul fechado
-#B9B9B9 - cinza aberto
-#077FB3 - azul aberto
-
 # windowsFonts(Helvetica = windowsFont("Helvetica"))
 
 tema_base <-  function(base_size = 12){theme(
