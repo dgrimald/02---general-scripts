@@ -72,9 +72,6 @@ tema_base <-  function(base_size = 12){theme(
   )}
 
 
-tema_binario <- list(tema_base, scale_colour_manual(values = binario), scale_fill_manual(values=binario))
-tema_diverso <-  list(tema_base, scale_color_manual(values = diverso), scale_fill_manual(values=diverso))
-
 tema_base_fundobranco <- function(base_size = 12, base_family = "Helvetica"){
   theme(
   line =               element_line(colour = cores$azulescuro, size = .5, linetype = 1,lineend = "butt"),
